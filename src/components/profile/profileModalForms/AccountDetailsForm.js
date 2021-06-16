@@ -6,6 +6,9 @@ const AccountDetailsForm = (props) => {
     let split = new Date().toString().split(" ");
     let timeZoneFormatted = Intl.DateTimeFormat().resolvedOptions().timeZone + " " + split[5];
 
+    let phone = props.user.phone.toString();
+    let strPhone = phone.slice(0-3)+"-"+phone.slice(3,6)+"-"+phone.slice(6);
+
     return (
         <div>
             <div class="wdc-modal-bg">
@@ -90,8 +93,8 @@ const AccountDetailsForm = (props) => {
                                         type="number"
                                         className="form-control"
                                         id="phone"
-                                        placeholder="Phone"
-                                        defaultValue={props.user.phone}
+                                        placeholder={strPhone}
+                                        
                                         required
                                     />
                                 </div>
