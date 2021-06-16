@@ -1,23 +1,4 @@
-.App {
-  text-align: center;
-  margin: 0 auto;
-  width: 82%;
-  background-color: rgb(240,241,242);
-}
-
-@media (max-width: 768px) { 
-  .App{
-    width: 100%;
-  }
- }
-
-
-
-
-
-
-
-
+@charset "UTF-8";
 @font-face {
   font-family: "Workday Adelle Sans";
   font-style: normal;
