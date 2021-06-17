@@ -1,19 +1,20 @@
 import * as React from 'react';
 import './App.css';
 
-import ProfileMain from './components/profile/ProfileMain';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-
+import Main from './Page/Main';
 function App() {
   return (
     <div className="App">
-      <ProfileMain />
+      <Router>
+        <Main></Main>
+      </Router>
     </div>
   );
 }
 
 export default App;
-
 
 
 
