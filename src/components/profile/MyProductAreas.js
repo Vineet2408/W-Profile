@@ -17,7 +17,7 @@ const MyProductAreas = (props) => {
             <div className="d-flex bd-highlight">
                 <h4 className="text-left w-100"><strong>My Product Areas</strong></h4>
                 <div className="flex-shrink-1">
-                    <i class="fa fa-pencil fa-2x btn p-0" aria-hidden="true" onClick={props.openModal}></i>
+                    <i className="fa fa-pencil fa-2x btn p-0" aria-hidden="true" onClick={props.openModal}></i>
                 </div>
             </div>
 
@@ -31,7 +31,7 @@ const MyProductAreas = (props) => {
                             </div>
 
                             <div className="row ">
-                                {obj.values.map((value, index) => <label className="mr-2">{value}</label>)}
+                                {obj.values.map((value, i) => <label key={i} className="mr-2">{value}</label>)}
                             </div>
                         </div>
                         {

@@ -31,8 +31,8 @@ const MyTopGroups = (props) => {
                                 </div>
 
                                 <div className="col-4 text-right">
-                                    <i class="fa fa-users" aria-hidden="true"></i> <label className="mr-3">{obj.people}</label>
-                                    <i class="fa fa-calendar-o" aria-hidden="true"></i> <label>{obj.calendarEngagement}</label>
+                                    <i className="fa fa-users" aria-hidden="true"></i> <label className="mr-3">{obj.people}</label>
+                                    <i className="fa fa-calendar-o" aria-hidden="true"></i> <label>{obj.calendarEngagement}</label>
                                 </div>
 
                             </div>

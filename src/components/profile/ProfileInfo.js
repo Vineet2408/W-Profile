@@ -46,7 +46,7 @@ const ProfileInfo = (props) => {
                         </div>
                         {/* <div className="col-1"></div> */}
                         <div className="flex-shrink-1">
-                            <i class="fa fa-pencil fa-2x btn p-0 mt-4" aria-hidden="true" onClick={props.openBasicInfoFormModal}></i>
+                            <i className="fa fa-pencil fa-2x btn p-0 mt-4" aria-hidden="true" onClick={props.openBasicInfoFormModal}></i>
                         </div>
 
                     </div>

@@ -14,6 +14,7 @@ const Login = ({config}) => {
 
     const onSuccess = (tokens) => {
         console.log("tokens = ",tokens);
+        console.log("okatauth = ",oktaAuth);
         oktaAuth.handleLoginRedirect(tokens);
     };
 

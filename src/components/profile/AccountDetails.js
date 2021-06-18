@@ -12,7 +12,7 @@ const AccountDetails = (props) => {
             <div className="d-flex bd-highlight">
                 <h4 className="text-left w-100"><strong>Account Details</strong></h4>
                 <div className="flex-shrink-1">
-                    <i class="fa fa-pencil fa-2x btn p-0" aria-hidden="true" onClick={props.openModal}></i>
+                    <i className="fa fa-pencil fa-2x btn p-0" aria-hidden="true" onClick={props.openModal}></i>
                 </div>
             </div>
             <br />
@@ -34,11 +34,11 @@ const AccountDetails = (props) => {
                     <p>{props.user.location}</p>
                 </div>
                 <div>
-                    <p className="m-0"><strong>Email &nbsp;<i class="fa fa-eye-slash" aria-hidden="true"></i></strong></p>
+                    <p className="m-0"><strong>Email &nbsp;<i className="fa fa-eye-slash" aria-hidden="true"></i></strong></p>
                     <p className="btn-link" style={{ color: "#0875E1" }}>{props.user.email}</p>
                 </div>
                 <div>
-                    <p className="m-0"><strong>Phone &nbsp;<i class="fa fa-eye-slash" aria-hidden="true"></i></strong></p>
+                    <p className="m-0"><strong>Phone &nbsp;<i className="fa fa-eye-slash" aria-hidden="true"></i></strong></p>
                     <p>{props.user.phone}</p>
                 </div>
 
